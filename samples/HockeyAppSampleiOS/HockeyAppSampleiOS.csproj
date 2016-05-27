@@ -23,11 +23,9 @@
     <MtouchLink>Full</MtouchLink>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchI18n>
-    </MtouchI18n>
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchExtraArgs>-cxx -gcc_flags "-lc++"</MtouchExtraArgs>
+    <MtouchExtraArgs>-cxx -gcc_flags "-lc++" -v -v -v -v</MtouchExtraArgs>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
